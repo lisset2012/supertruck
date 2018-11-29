@@ -1,0 +1,94 @@
+body{
+    background-color: #E1E2E4;
+}
+
+.container{
+    background-image: url("../img/deutz-116132_1280.jpg");
+    opacity: 0.6;
+}
+
+.row > div {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.header-supertruck{
+    color: #7D7D7D;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #7D7D7D;
+    color: #E1E2E4;
+    border-radius: 50px;
+
+}
+
+.content{
+    height: 600px;
+}
+
+/* comienza estilod de formulario */
+.back {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .div-center {
+    width: 400px;
+    height: 400px;
+    background-color: #E1E2E4;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1em 2em;
+    border-bottom: 2px solid #ccc;
+    display: table;
+  }
+  
+  div.form-content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+/* termina estilos de formulario */
+
+
+.displayer{
+    background-color: white;
+    /* opacity: 0.5; */
+    margin: 10px;
+    padding: 5px;
+}
+
+.green-strap{
+    background-color: #3FD195;
+    opacity: 0.5;
+}
+
+.grey-strap{
+    background-color: rgb(0, 0, 0);
+    /* opacity: 0.5; */
+}
+
+.footer{
+    background-color: #7D7D7D;
+}
+
+.footer-supertruck, h6{
+    color:#E1E2E4;
+    font-weight: bold;
+}
+
+ul{
+    color:#3FD195;
+}
