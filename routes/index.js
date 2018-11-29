@@ -25,4 +25,8 @@ router.get('/whReceiverSignIn', (req, res) => {
     res.render('whReceiverSignIn')
 });
 
+router.get('/displayDriversTrucks', (req, res) => {
+    res.render('displayDriversTrucks')
+});
+
 module.exports = router;
